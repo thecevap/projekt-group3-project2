@@ -1,5 +1,5 @@
 # Reservierungssystem für Restaurants
-## Funktionsanforderungen
+### Funktionsanforderungen
 
 - Das System muss in der Lage sein, Tische hinzuzufügen und zu entfernen, indem kartesische Koordinaten angegeben werden.
 - Das System muss die Reservierungsdaten speichern, einschließlich der Kontaktperson und des reservierten Tisches.
@@ -7,14 +7,14 @@
 - Das System muss in der Lage sein, alle belegten Tische abzufragen, die einen bestimmten Abstand zu einem angegebenen Tisch haben.
 - Das System muss ein benutzerfreundliches Interface haben, das es dem Besitzer ermöglicht, Tische hinzuzufügen und zu entfernen, Reservierungen durchzuführen und alle belegten Tische abzufragen.
 
-## Daten der Reservierung
+### Daten der Reservierung
 
 - Kontaktperson-Information
 - Tischnummer
 - Ankunft und Verlassen
 - Anzahl der Gäste (max 4)
 
-## Kontaktperson-Information
+### Kontaktperson-Information
 
 - Telefonnummer
 - Adresse
@@ -22,7 +22,7 @@
 - Geburtsdatum
 - Vorname und Nachname
 
-## Nicht-funktionale Anforderungen
+### Nicht-funktionale Anforderungen
 
 - Das System muss sicher sein, um die Privatsphäre der Kontaktpersonen und Gäste zu schützen.
 - Das System muss zuverlässig sein, um sicherzustellen, dass Reservierungen korrekt gespeichert und abgerufen werden.
@@ -30,7 +30,7 @@
 - Das System muss benutzerfreundlich sein und einfach zu bedienen sein, um den Einsatz zu erleichtern.
 - Das System muss schnell und effizient sein, um eine schnelle Reservierung zu ermöglichen.
 
-## Einschränkungen
+### Einschränkungen
 
 - Das System muss den Datenschutzbestimmungen entsprechen.
 - Das System muss in der Lage sein, die Tischkapazität zu berücksichtigen, um sicherzustellen, dass keine Reservierung mehr Gäste als die mögliche Sitzplatzanzahl des Tisches enthält.
@@ -38,7 +38,7 @@
 - Das System muss in der Lage sein, benachbarte Tische und Sitzgruppen zu identifizieren, um die Einhaltung der Abstandsregeln zu gewährleisten.
 - Das System muss mit unterschiedlichen Lokaltypen kompatibel sein, um sicherzustellen, dass es für verschiedene Arten von Restaurants und Bars geeignet ist.
 
-## Nutzererlebnisse (User Stories)
+### Nutzererlebnisse (User Stories)
 
 - Tische hinzufügen und entfernen: Der Besitzer muss in der Lage sein, Tische hinzuzufügen und zu entfernen, indem kartesische Koordinaten angegeben werden.
 
@@ -66,7 +66,7 @@ When: Ich suche nach einer Kontaktperson, die einen Tisch reserviert hat.
 Then: Das System zeigt mir alle Kontakte der Personen, die in der Nähe dieses Tisches gesessen waren.
 ```
 
-## Authors
+### Authors
 - Mihajlo Djordjevic
 - Lazar Zivkovic
 - Santiago Fernandez Segura
