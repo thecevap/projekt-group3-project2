@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.0)
 
-project(CoverageExample VERSION 1.0)
+project(CoverageExample VERSION 1.0) // Add final project name
 
 find_package(Catch2 REQUIRED)
 
